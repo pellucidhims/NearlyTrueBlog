@@ -1,2 +1,0 @@
-# NearlyTrueBlog
-Created with CodeSandbox
