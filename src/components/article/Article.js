@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 class Article extends Component {
   render() {
-    return <div>Home</div>;
+    let { params } = this.props.match;
+    return <div>Article Id - {params.id}</div>;
   }
 }
 
