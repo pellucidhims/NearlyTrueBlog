@@ -1,0 +1,81 @@
+.card-main-div {
+  height: 20em;
+  width: 15em;
+  padding: 5px;
+  box-shadow: -10px 10px 10px #888888;
+  border-radius: 5px;
+  border: 1px dotted #cfb7b7;
+  margin: 10px;
+}
+
+ul {
+  padding-inline-start: 15px;
+  list-style-type: square;
+}
+
+ol {
+  padding-inline-start: 15px;
+}
+
+li {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+h4,
+h5 {
+  text-align: left;
+  margin-left: 5px;
+}
+
+.card-heading-image-main-div {
+  position: sticky;
+  top: 0;
+}
+
+.card-heading-main-div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: orangered;
+  padding: 1px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 0px orangered;
+}
+
+.card-image-main-div {
+  height: 8em;
+  width: 15em;
+  transition: all 0.5s;
+}
+
+.card-content-main-div {
+  overflow: auto;
+  overflow-x: hidden;
+  height: 12em;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.card-content-main-div:hover {
+  color: blue;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #888888;
+}
+
+.card-image-shrink-main-div {
+  height: 0em;
+  width: 0em;
+  transition: all 0.5s;
+}
+
+.card-content-expand-main-div {
+  height: 17em;
+}

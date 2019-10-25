@@ -1,0 +1,21 @@
+.nearlyTrueApp-post-card-main-div {
+  box-shadow: 5px 5px 10px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  margin-top: 0rem;
+  padding: 1rem;
+}
+
+.nearlyTrueApp-excerpt-and-read-more-main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nearlyTureApp-post-card-image-div:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

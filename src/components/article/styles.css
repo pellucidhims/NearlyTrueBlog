@@ -1,0 +1,23 @@
+.nearlyTrueApp-article-content-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nearlyTrueApp-article-suggestions-main-div {
+  width: 100%;
+  margin-left: 1em;
+  margin-top: 1rem;
+}
+
+.nearlyTrueApp-article-content-div {
+  max-width: 850px;
+  padding: 1em;
+  box-shadow: 2px 2px 8px gray;
+  margin-left: 1em;
+}
+
+p.nearlyTrueApp-article-content-div {
+  max-width: 1200px;
+}

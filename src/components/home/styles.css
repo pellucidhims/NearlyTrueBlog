@@ -1,0 +1,15 @@
+.nearlyTrueBlog-app-main-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.nearlyTrueBlog-app-side-bar-main-div {
+  position: sticky;
+  top: 0;
+}
+
+.nearlyTrueBlog-app-content-main-div {
+  flex-grow: 3;
+  background: white;
+}
